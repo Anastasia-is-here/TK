@@ -1,0 +1,21 @@
+﻿<Window x:Class="TK.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TK"
+        mc:Ignorable="d"
+        Title="Узнать оценку" Height="450" Width="800">
+    <Grid Background="#FF85B577">
+        <TextBox x:Name="Grade1" Foreground="#FF1E4113" HorizontalAlignment="Left" Margin="329,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Height="78" Background="#FFD5EEC4" FontSize="36" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="Grade3" Foreground="#FF1E4113" HorizontalAlignment="Left" Margin="329,237,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="90" Height="78" Background="#FFD5EEC4" FontSize="36" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="Grade2" Foreground="#FF1E4113" HorizontalAlignment="Left" Margin="329,133,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="90" Height="78" Background="#FFD5EEC4" FontSize="36" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label Content="Модуль «Разработка,и&#xD;&#xA;администрирование и защита и&#xD;&#xA;баз данных». &#xD;&#xA;Максимальное количество баллов = 22" HorizontalAlignment="Left" Margin="30,20,0,0" VerticalAlignment="Top" Height="90" Width="284" FontWeight="Bold" Foreground="#FF1E4113" FontSize="14"/>
+        <Label Content="Модуль «Разработка модулей&#xD;&#xA;программного обеспечения для&#xD;&#xA;компьютерных систем». &#xD;&#xA;Максимальное количество баллов = 38" HorizontalAlignment="Left" Margin="30,127,0,0" VerticalAlignment="Top" Height="90" Width="284" FontWeight="Bold" Foreground="#FF1E4113" FontSize="14"/>
+        <Label Content="Модуль «Сопровождение и&#xD;&#xA;обслуживание программного&#xD;&#xA;обеспечения компьютерных систем». &#xA;Максимальное количество баллов = 20" HorizontalAlignment="Left" Margin="30,231,0,0" VerticalAlignment="Top" Height="90" Width="284" FontWeight="Bold" Foreground="#FF1E4113" FontSize="14"/>
+        <Label Content="Ваша оценка:"  HorizontalAlignment="Left" Margin="489,66,0,0" VerticalAlignment="Top" Height="62" Width="246" FontWeight="Bold" Foreground="#FF1E4113" FontSize="36"/>
+        <Button Foreground="#FF1E4113" Content="Рассчитать" HorizontalAlignment="Left" Margin="520,252,0,0" VerticalAlignment="Top" Height="48" Width="184" Background="#FFEDE192" FontSize="22" FontWeight="Bold" Click="Button_Click"/>
+        <TextBox x:Name="Result" Foreground="#FF1E4113" HorizontalAlignment="Left" Margin="471,133,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="289" Height="78" Background="#FFD5EEC4" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" IsReadOnly="True"/>
+
+    </Grid>
+</Window>
